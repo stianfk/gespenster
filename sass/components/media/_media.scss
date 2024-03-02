@@ -1,0 +1,38 @@
+.page-content .wp-smiley,
+.entry-content .wp-smiley,
+.comment-content .wp-smiley {
+	border: none;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 0;
+}
+
+/* Make sure logo link wraps around logo image. */
+.custom-logo-link {
+	padding-top: 30px;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.custom-logo {
+		max-width: 600px;
+}
+
+.wp-block-media-text {
+	align-items: start;
+	grid-template-areas:
+    "a b"
+}
+
+.wp-block-media-text__media img {
+	grid-area: a;
+	border: 1px solid $color__text-main;
+}
+
+.wp-block-media-text .wp-block-media-text__content {
+	grid-area: b;
+	align-self: start;
+}
+
+

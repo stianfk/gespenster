@@ -1,0 +1,22 @@
+.no-sidebar {
+	.site {
+		display: grid;
+		grid-template-columns: auto;
+		grid-template-areas:
+			"header"
+			"main"
+			"footer";
+	}
+
+	article, h1.page-title {
+		display: flex;
+		width: 70%;
+		justify-content: center;
+	}
+
+	footer {
+		justify-self: center;
+		justify-content: center;
+	}
+}
+
