@@ -25,14 +25,50 @@
     "a b"
 }
 
+.wp-block-media-text .wp-block-media-text__media {
+	align-self: start;
+}
+
 .wp-block-media-text__media img {
 	grid-area: a;
 	border: 1px solid $color__text-main;
 }
 
-.wp-block-media-text .wp-block-media-text__content {
+.wp-block-media-text__content {
 	grid-area: b;
 	align-self: start;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.custom-logo {
+		width: 100%;
+		max-width: 400px;
+}
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	.custom-logo {
+		width: 100%;
+	}
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	.custom-logo {
+		width: 100%;
+	}
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	.custom-logo {
+		width: 100%;
+	}
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	.custom-logo {
+		width: 100%;
+	}
 }
 
 
