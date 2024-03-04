@@ -15,7 +15,7 @@
 		<div class="site-info">
 			Gespenster
 			<span class="sep"> | </span>
-			&copy; <?php echo date("Y");?> Steinlia
+			&copy; <?php echo date("Y");?> Steinlia <span class="sep"> | </span> <a href="<?php echo get_privacy_policy_url();?>"><?php echo __('Privacy Policy');?></a>
 </div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->

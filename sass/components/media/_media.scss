@@ -44,12 +44,20 @@
 	.custom-logo {
 		width: 100%;
 		max-width: 400px;
-}
+	}
+	.site-main {
+		width: 100%;
+		max-width: 400px;
+	}
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 	.custom-logo {
 		width: 100%;
+	}
+	.site-main {
+		width: 100%;
+		max-width: 500px;
 	}
 }
 /* Medium devices (landscape tablets, 768px and up) */
@@ -57,17 +65,29 @@
 	.custom-logo {
 		width: 100%;
 	}
+	.site-main {
+		width: 90%;
+		max-width: 650px;
+	}
 }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 	.custom-logo {
 		width: 100%;
 	}
+	.site-main {
+		width: 100%;
+		max-width: 750px;
+	}
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 	.custom-logo {
 		width: 100%;
+	}
+	.site-main {
+		width: 100%;
+		max-width: 800px;
 	}
 }
 
